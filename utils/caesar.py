@@ -5,7 +5,7 @@
 @author: baola
 @time: 2020-06-10 20:14
 @file: CaesarCrypto.py
-@version: python3.8.1
+@version: python3.8.morse是摩丝解密的方法
 """
 
 def CaesarEncode(crypto_str, shift):

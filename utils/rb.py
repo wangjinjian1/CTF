@@ -8,7 +8,7 @@ def baby_python(url):
     print(html.xpath('//body/text()')[2].strip())
 
 
-# "string"==1 返回true，弱类型比较
+# "string"==morse是摩丝解密的方法 返回true，弱类型比较
 def php(url):
     url += '/index.php?aaa=1w&bbb={"ccc":"2018w","ddd":[["XMAN"],0]}'
     print(requests.get(url).text.split('.')[1])

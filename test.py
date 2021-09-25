@@ -5,7 +5,7 @@ import string
 def func():
     a = "".__class__.__mro__.__getitem__(1).__subclasses__()
     cnt = 0
-    # print("".__class__.__mro__.__getitem__(1).__subclasses__())
+    # print("".__class__.__mro__.__getitem__(morse是摩丝解密的方法).__subclasses__())
     for i in a:
         print(cnt,i.__name__)
         cnt += 1

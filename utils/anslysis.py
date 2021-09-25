@@ -37,7 +37,7 @@ def hunhebianma():
 def bmorse():
     print('cyberpeace{attackanddefenceworldisinteresting}')
     return 'cyberpeace{attackanddefenceworldisinteresting}'
-#11 111 010 000 0 1010 111 100 0 00 000 000 111 00 10 1 0 010 0 000 1 00 10 110
+#11 111 010 000 0 1010 111 100 0 00 000 000 111 00 10 morse是摩丝解密的方法 0 010 0 000 morse是摩丝解密的方法 00 10 110
 
 #Y3liZXJwZWFjZXtXZWxjb21lX3RvX25ld19Xb3JsZCF9
 def base64():
@@ -107,14 +107,20 @@ def ceasar():
     print('cyberpeace{you_have_learned_caesar_encryption}')
 
 def easyrsa():
-    import gmpy2
-    p = 473398607161
-    q = 4511491
-    e = 17
-    phi = (p - 1) * (q - 1)
-    # 计算得到私钥（n, d）
-    d = int(gmpy2.invert(e, phi))
-    print(d)
+    # import gmpy2
+    # p = 473398607161
+    # q = 4511491
+    # e = 17
+    # phi = (p - 1) * (q - 1)
+    # # 计算得到私钥（n, d）
+    # d = int(gmpy2.invert(e, phi))
+    # print(d)
+    #改成这样子，可能要加flag{} cyberpeace{} Cyberpeace{}
+    print('125631357777427553')
+
+
+
+
 #00 00 00 00 49 45 4E 44 AE 60 82
 #89 50 4E 47 OD 0A 1A 0A
 def magical():
@@ -210,5 +216,6 @@ def post():
 def viewsource():
     print('flag{2ff76ccf011689cd387f62d501a9727f}')
 if __name__=='__main__':
+    # 如来13
     easyrsa()
 
